@@ -1,6 +1,6 @@
 import './App.css'
 import SearchBar from "../SearchBar/SearchBar"
-import getMovies from "../../servises/movieServise"
+import getMovies from "../../serviсes/movieServiсe"
 import { useState } from 'react'
 import type { Movie } from '../../types/movie'
 import toast from "react-hot-toast";
