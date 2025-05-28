@@ -1,5 +1,5 @@
+import toast from "react-hot-toast";
 import css from "./SearchBar.module.css";
-import toast, { Toaster } from 'react-hot-toast';
 
 
 interface SearchBarProps {
@@ -38,7 +38,6 @@ export default function SearchBar({onSubmit}: SearchBarProps) {
           placeholder="Search movies..."
           autoFocus
                 />
-        <Toaster/>
         <button className={css.button} type="submit">
           Search
         </button>
